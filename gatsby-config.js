@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Ali Stout's Professional Portfolio",
+    title: "Ali Stout's Portfolio",
     author: "Hunter Chang",
-    description: "Ali Stout's Professional Portfolio"
+    description: "Ali Stout's Portfolio"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/favicon-32x32.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
